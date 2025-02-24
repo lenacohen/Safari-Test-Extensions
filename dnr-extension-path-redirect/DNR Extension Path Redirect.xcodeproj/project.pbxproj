@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8DDDCD2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA8DDDCC2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8DDDB72D6CE53500AF7E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8DDD922D6CE53400AF7E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8DDD992D6CE53400AF7E85;
+			remoteInfo = "DNR Extension Path Redirect";
+		};
+		AA8DDDC12D6CE53500AF7E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8DDD922D6CE53400AF7E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8DDD992D6CE53400AF7E85;
+			remoteInfo = "DNR Extension Path Redirect";
+		};
+		AA8DDDCE2D6CE53500AF7E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8DDD922D6CE53400AF7E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8DDDCB2D6CE53500AF7E85;
+			remoteInfo = "DNR Extension Path Redirect Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA8DDDEC2D6CE53500AF7E85 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA8DDDCD2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA8DDD9A2D6CE53400AF7E85 /* DNR Extension Path Redirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNR Extension Path Redirect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DDDB62D6CE53500AF7E85 /* DNR Extension Path RedirectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNR Extension Path RedirectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DDDC02D6CE53500AF7E85 /* DNR Extension Path RedirectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNR Extension Path RedirectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DDDCC2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DNR Extension Path Redirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA8DDDE62D6CE53500AF7E85 /* Exceptions for "DNR Extension Path Redirect Extension" folder in "DNR Extension Path Redirect Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA8DDDCB2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA8DDD9C2D6CE53400AF7E85 /* DNR Extension Path Redirect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DNR Extension Path Redirect";
+			sourceTree = "<group>";
+		};
+		AA8DDDB92D6CE53500AF7E85 /* DNR Extension Path RedirectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DNR Extension Path RedirectTests";
+			sourceTree = "<group>";
+		};
+		AA8DDDC32D6CE53500AF7E85 /* DNR Extension Path RedirectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DNR Extension Path RedirectUITests";
+			sourceTree = "<group>";
+		};
+		AA8DDDD02D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA8DDDE62D6CE53500AF7E85 /* Exceptions for "DNR Extension Path Redirect Extension" folder in "DNR Extension Path Redirect Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "DNR Extension Path Redirect Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8DDD972D6CE53400AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDB32D6CE53500AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDBD2D6CE53500AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDC92D6CE53500AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8DDD912D6CE53400AF7E85 = {
+			isa = PBXGroup;
+			children = (
+				AA8DDD9C2D6CE53400AF7E85 /* DNR Extension Path Redirect */,
+				AA8DDDB92D6CE53500AF7E85 /* DNR Extension Path RedirectTests */,
+				AA8DDDC32D6CE53500AF7E85 /* DNR Extension Path RedirectUITests */,
+				AA8DDDD02D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */,
+				AA8DDD9B2D6CE53400AF7E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8DDD9B2D6CE53400AF7E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8DDD9A2D6CE53400AF7E85 /* DNR Extension Path Redirect.app */,
+				AA8DDDB62D6CE53500AF7E85 /* DNR Extension Path RedirectTests.xctest */,
+				AA8DDDC02D6CE53500AF7E85 /* DNR Extension Path RedirectUITests.xctest */,
+				AA8DDDCC2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8DDD992D6CE53400AF7E85 /* DNR Extension Path Redirect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDDED2D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path Redirect" */;
+			buildPhases = (
+				AA8DDD962D6CE53400AF7E85 /* Sources */,
+				AA8DDD972D6CE53400AF7E85 /* Frameworks */,
+				AA8DDD982D6CE53400AF7E85 /* Resources */,
+				AA8DDDEC2D6CE53500AF7E85 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8DDDCF2D6CE53500AF7E85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDD9C2D6CE53400AF7E85 /* DNR Extension Path Redirect */,
+			);
+			name = "DNR Extension Path Redirect";
+			packageProductDependencies = (
+			);
+			productName = "DNR Extension Path Redirect";
+			productReference = AA8DDD9A2D6CE53400AF7E85 /* DNR Extension Path Redirect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8DDDB52D6CE53500AF7E85 /* DNR Extension Path RedirectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDDF02D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path RedirectTests" */;
+			buildPhases = (
+				AA8DDDB22D6CE53500AF7E85 /* Sources */,
+				AA8DDDB32D6CE53500AF7E85 /* Frameworks */,
+				AA8DDDB42D6CE53500AF7E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8DDDB82D6CE53500AF7E85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDDB92D6CE53500AF7E85 /* DNR Extension Path RedirectTests */,
+			);
+			name = "DNR Extension Path RedirectTests";
+			packageProductDependencies = (
+			);
+			productName = "DNR Extension Path RedirectTests";
+			productReference = AA8DDDB62D6CE53500AF7E85 /* DNR Extension Path RedirectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA8DDDBF2D6CE53500AF7E85 /* DNR Extension Path RedirectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDDF32D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path RedirectUITests" */;
+			buildPhases = (
+				AA8DDDBC2D6CE53500AF7E85 /* Sources */,
+				AA8DDDBD2D6CE53500AF7E85 /* Frameworks */,
+				AA8DDDBE2D6CE53500AF7E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8DDDC22D6CE53500AF7E85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDDC32D6CE53500AF7E85 /* DNR Extension Path RedirectUITests */,
+			);
+			name = "DNR Extension Path RedirectUITests";
+			packageProductDependencies = (
+			);
+			productName = "DNR Extension Path RedirectUITests";
+			productReference = AA8DDDC02D6CE53500AF7E85 /* DNR Extension Path RedirectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AA8DDDCB2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDDE72D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path Redirect Extension" */;
+			buildPhases = (
+				AA8DDDC82D6CE53500AF7E85 /* Sources */,
+				AA8DDDC92D6CE53500AF7E85 /* Frameworks */,
+				AA8DDDCA2D6CE53500AF7E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDDD02D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */,
+			);
+			name = "DNR Extension Path Redirect Extension";
+			packageProductDependencies = (
+			);
+			productName = "DNR Extension Path Redirect Extension";
+			productReference = AA8DDDCC2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8DDD922D6CE53400AF7E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA8DDD992D6CE53400AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA8DDDB52D6CE53500AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA8DDD992D6CE53400AF7E85;
+					};
+					AA8DDDBF2D6CE53500AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA8DDD992D6CE53400AF7E85;
+					};
+					AA8DDDCB2D6CE53500AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = AA8DDD952D6CE53400AF7E85 /* Build configuration list for PBXProject "DNR Extension Path Redirect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8DDD912D6CE53400AF7E85;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA8DDD9B2D6CE53400AF7E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8DDD992D6CE53400AF7E85 /* DNR Extension Path Redirect */,
+				AA8DDDB52D6CE53500AF7E85 /* DNR Extension Path RedirectTests */,
+				AA8DDDBF2D6CE53500AF7E85 /* DNR Extension Path RedirectUITests */,
+				AA8DDDCB2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8DDD982D6CE53400AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDB42D6CE53500AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDBE2D6CE53500AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDCA2D6CE53500AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8DDD962D6CE53400AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDB22D6CE53500AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDBC2D6CE53500AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDDC82D6CE53500AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8DDDB82D6CE53500AF7E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8DDD992D6CE53400AF7E85 /* DNR Extension Path Redirect */;
+			targetProxy = AA8DDDB72D6CE53500AF7E85 /* PBXContainerItemProxy */;
+		};
+		AA8DDDC22D6CE53500AF7E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8DDD992D6CE53400AF7E85 /* DNR Extension Path Redirect */;
+			targetProxy = AA8DDDC12D6CE53500AF7E85 /* PBXContainerItemProxy */;
+		};
+		AA8DDDCF2D6CE53500AF7E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8DDDCB2D6CE53500AF7E85 /* DNR Extension Path Redirect Extension */;
+			targetProxy = AA8DDDCE2D6CE53500AF7E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA8DDDE82D6CE53500AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DNR Extension Path Redirect Extension/DNR_Extension_Path_Redirect_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DNR Extension Path Redirect Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Extension Path Redirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-Redirect.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA8DDDE92D6CE53500AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DNR Extension Path Redirect Extension/DNR_Extension_Path_Redirect_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DNR Extension Path Redirect Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Extension Path Redirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-Redirect.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA8DDDEA2D6CE53500AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8DDDEB2D6CE53500AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA8DDDEE2D6CE53500AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DNR Extension Path Redirect/DNR Extension Path Redirect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Extension Path Redirect";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-Redirect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA8DDDEF2D6CE53500AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DNR Extension Path Redirect/DNR Extension Path Redirect.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Extension Path Redirect";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-Redirect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA8DDDF12D6CE53500AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-RedirectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNR Extension Path Redirect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DNR Extension Path Redirect";
+			};
+			name = Debug;
+		};
+		AA8DDDF22D6CE53500AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-RedirectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNR Extension Path Redirect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DNR Extension Path Redirect";
+			};
+			name = Release;
+		};
+		AA8DDDF42D6CE53500AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-RedirectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DNR Extension Path Redirect";
+			};
+			name = Debug;
+		};
+		AA8DDDF52D6CE53500AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Extension-Path-RedirectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DNR Extension Path Redirect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8DDD952D6CE53400AF7E85 /* Build configuration list for PBXProject "DNR Extension Path Redirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDDEA2D6CE53500AF7E85 /* Debug */,
+				AA8DDDEB2D6CE53500AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDDE72D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path Redirect Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDDE82D6CE53500AF7E85 /* Debug */,
+				AA8DDDE92D6CE53500AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDDED2D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path Redirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDDEE2D6CE53500AF7E85 /* Debug */,
+				AA8DDDEF2D6CE53500AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDDF02D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path RedirectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDDF12D6CE53500AF7E85 /* Debug */,
+				AA8DDDF22D6CE53500AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDDF32D6CE53500AF7E85 /* Build configuration list for PBXNativeTarget "DNR Extension Path RedirectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDDF42D6CE53500AF7E85 /* Debug */,
+				AA8DDDF52D6CE53500AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8DDD922D6CE53400AF7E85 /* Project object */;
+}

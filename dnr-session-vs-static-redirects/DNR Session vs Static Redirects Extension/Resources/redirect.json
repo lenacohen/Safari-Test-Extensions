@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "priority": 2,
+      "action": {
+        "type": "redirect",
+        "redirect": {
+          "url": "http://washingtonpost.com"
+        }
+      },
+      "condition": {
+        "urlFilter": "||eff.org^",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
+    }
+]

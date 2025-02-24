@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8DDD662D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA8DDD652D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8DDD502D6CE11400AF7E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8DDD2B2D6CE11300AF7E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8DDD322D6CE11300AF7E85;
+			remoteInfo = "DNR Session vs Static Redirects";
+		};
+		AA8DDD5A2D6CE11400AF7E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8DDD2B2D6CE11300AF7E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8DDD322D6CE11300AF7E85;
+			remoteInfo = "DNR Session vs Static Redirects";
+		};
+		AA8DDD672D6CE11400AF7E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8DDD2B2D6CE11300AF7E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8DDD642D6CE11400AF7E85;
+			remoteInfo = "DNR Session vs Static Redirects Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA8DDD852D6CE11400AF7E85 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA8DDD662D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA8DDD332D6CE11300AF7E85 /* DNR Session vs Static Redirects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNR Session vs Static Redirects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DDD4F2D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNR Session vs Static RedirectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DDD592D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNR Session vs Static RedirectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DDD652D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DNR Session vs Static Redirects Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA8DDD7F2D6CE11400AF7E85 /* Exceptions for "DNR Session vs Static Redirects Extension" folder in "DNR Session vs Static Redirects Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA8DDD642D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA8DDD352D6CE11300AF7E85 /* DNR Session vs Static Redirects */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DNR Session vs Static Redirects";
+			sourceTree = "<group>";
+		};
+		AA8DDD522D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DNR Session vs Static RedirectsTests";
+			sourceTree = "<group>";
+		};
+		AA8DDD5C2D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DNR Session vs Static RedirectsUITests";
+			sourceTree = "<group>";
+		};
+		AA8DDD692D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA8DDD7F2D6CE11400AF7E85 /* Exceptions for "DNR Session vs Static Redirects Extension" folder in "DNR Session vs Static Redirects Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "DNR Session vs Static Redirects Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8DDD302D6CE11300AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD4C2D6CE11400AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD562D6CE11400AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD622D6CE11400AF7E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8DDD2A2D6CE11300AF7E85 = {
+			isa = PBXGroup;
+			children = (
+				AA8DDD352D6CE11300AF7E85 /* DNR Session vs Static Redirects */,
+				AA8DDD522D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests */,
+				AA8DDD5C2D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests */,
+				AA8DDD692D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */,
+				AA8DDD342D6CE11300AF7E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8DDD342D6CE11300AF7E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8DDD332D6CE11300AF7E85 /* DNR Session vs Static Redirects.app */,
+				AA8DDD4F2D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests.xctest */,
+				AA8DDD592D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests.xctest */,
+				AA8DDD652D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8DDD322D6CE11300AF7E85 /* DNR Session vs Static Redirects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDD862D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static Redirects" */;
+			buildPhases = (
+				AA8DDD2F2D6CE11300AF7E85 /* Sources */,
+				AA8DDD302D6CE11300AF7E85 /* Frameworks */,
+				AA8DDD312D6CE11300AF7E85 /* Resources */,
+				AA8DDD852D6CE11400AF7E85 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8DDD682D6CE11400AF7E85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDD352D6CE11300AF7E85 /* DNR Session vs Static Redirects */,
+			);
+			name = "DNR Session vs Static Redirects";
+			packageProductDependencies = (
+			);
+			productName = "DNR Session vs Static Redirects";
+			productReference = AA8DDD332D6CE11300AF7E85 /* DNR Session vs Static Redirects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8DDD4E2D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDD892D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static RedirectsTests" */;
+			buildPhases = (
+				AA8DDD4B2D6CE11400AF7E85 /* Sources */,
+				AA8DDD4C2D6CE11400AF7E85 /* Frameworks */,
+				AA8DDD4D2D6CE11400AF7E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8DDD512D6CE11400AF7E85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDD522D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests */,
+			);
+			name = "DNR Session vs Static RedirectsTests";
+			packageProductDependencies = (
+			);
+			productName = "DNR Session vs Static RedirectsTests";
+			productReference = AA8DDD4F2D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA8DDD582D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDD8C2D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static RedirectsUITests" */;
+			buildPhases = (
+				AA8DDD552D6CE11400AF7E85 /* Sources */,
+				AA8DDD562D6CE11400AF7E85 /* Frameworks */,
+				AA8DDD572D6CE11400AF7E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8DDD5B2D6CE11400AF7E85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDD5C2D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests */,
+			);
+			name = "DNR Session vs Static RedirectsUITests";
+			packageProductDependencies = (
+			);
+			productName = "DNR Session vs Static RedirectsUITests";
+			productReference = AA8DDD592D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AA8DDD642D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DDD802D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static Redirects Extension" */;
+			buildPhases = (
+				AA8DDD612D6CE11400AF7E85 /* Sources */,
+				AA8DDD622D6CE11400AF7E85 /* Frameworks */,
+				AA8DDD632D6CE11400AF7E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA8DDD692D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */,
+			);
+			name = "DNR Session vs Static Redirects Extension";
+			packageProductDependencies = (
+			);
+			productName = "DNR Session vs Static Redirects Extension";
+			productReference = AA8DDD652D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8DDD2B2D6CE11300AF7E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA8DDD322D6CE11300AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA8DDD4E2D6CE11400AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA8DDD322D6CE11300AF7E85;
+					};
+					AA8DDD582D6CE11400AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA8DDD322D6CE11300AF7E85;
+					};
+					AA8DDD642D6CE11400AF7E85 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = AA8DDD2E2D6CE11300AF7E85 /* Build configuration list for PBXProject "DNR Session vs Static Redirects" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8DDD2A2D6CE11300AF7E85;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA8DDD342D6CE11300AF7E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8DDD322D6CE11300AF7E85 /* DNR Session vs Static Redirects */,
+				AA8DDD4E2D6CE11400AF7E85 /* DNR Session vs Static RedirectsTests */,
+				AA8DDD582D6CE11400AF7E85 /* DNR Session vs Static RedirectsUITests */,
+				AA8DDD642D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8DDD312D6CE11300AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD4D2D6CE11400AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD572D6CE11400AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD632D6CE11400AF7E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8DDD2F2D6CE11300AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD4B2D6CE11400AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD552D6CE11400AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8DDD612D6CE11400AF7E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8DDD512D6CE11400AF7E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8DDD322D6CE11300AF7E85 /* DNR Session vs Static Redirects */;
+			targetProxy = AA8DDD502D6CE11400AF7E85 /* PBXContainerItemProxy */;
+		};
+		AA8DDD5B2D6CE11400AF7E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8DDD322D6CE11300AF7E85 /* DNR Session vs Static Redirects */;
+			targetProxy = AA8DDD5A2D6CE11400AF7E85 /* PBXContainerItemProxy */;
+		};
+		AA8DDD682D6CE11400AF7E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8DDD642D6CE11400AF7E85 /* DNR Session vs Static Redirects Extension */;
+			targetProxy = AA8DDD672D6CE11400AF7E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA8DDD812D6CE11400AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DNR Session vs Static Redirects Extension/DNR_Session_vs_Static_Redirects_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DNR Session vs Static Redirects Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Session vs Static Redirects Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-Redirects.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA8DDD822D6CE11400AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DNR Session vs Static Redirects Extension/DNR_Session_vs_Static_Redirects_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DNR Session vs Static Redirects Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Session vs Static Redirects Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-Redirects.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA8DDD832D6CE11400AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8DDD842D6CE11400AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA8DDD872D6CE11400AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DNR Session vs Static Redirects/DNR Session vs Static Redirects.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Session vs Static Redirects";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-Redirects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA8DDD882D6CE11400AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DNR Session vs Static Redirects/DNR Session vs Static Redirects.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNR Session vs Static Redirects";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-Redirects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA8DDD8A2D6CE11400AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-RedirectsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNR Session vs Static Redirects.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DNR Session vs Static Redirects";
+			};
+			name = Debug;
+		};
+		AA8DDD8B2D6CE11400AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-RedirectsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNR Session vs Static Redirects.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DNR Session vs Static Redirects";
+			};
+			name = Release;
+		};
+		AA8DDD8D2D6CE11400AF7E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-RedirectsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DNR Session vs Static Redirects";
+			};
+			name = Debug;
+		};
+		AA8DDD8E2D6CE11400AF7E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lena-test.DNR-Session-vs-Static-RedirectsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "DNR Session vs Static Redirects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8DDD2E2D6CE11300AF7E85 /* Build configuration list for PBXProject "DNR Session vs Static Redirects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDD832D6CE11400AF7E85 /* Debug */,
+				AA8DDD842D6CE11400AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDD802D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static Redirects Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDD812D6CE11400AF7E85 /* Debug */,
+				AA8DDD822D6CE11400AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDD862D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static Redirects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDD872D6CE11400AF7E85 /* Debug */,
+				AA8DDD882D6CE11400AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDD892D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static RedirectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDD8A2D6CE11400AF7E85 /* Debug */,
+				AA8DDD8B2D6CE11400AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DDD8C2D6CE11400AF7E85 /* Build configuration list for PBXNativeTarget "DNR Session vs Static RedirectsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DDD8D2D6CE11400AF7E85 /* Debug */,
+				AA8DDD8E2D6CE11400AF7E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8DDD2B2D6CE11300AF7E85 /* Project object */;
+}
