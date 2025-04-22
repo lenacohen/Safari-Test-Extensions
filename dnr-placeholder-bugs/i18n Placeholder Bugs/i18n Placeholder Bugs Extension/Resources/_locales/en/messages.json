@@ -6,5 +6,63 @@
     "extension_description": {
         "message": "This is i18n Placeholder Bugs Extension. You should tell us what your extension does here.",
         "description": "Description of what the extension does."
-    }
+    },
+    "non_html_placeholder_test": {
+            "message": "Test showing that $START$ace$END$ without inner spaces fail even when they're not HTML",
+            "description": "Popup message shown when at least one tracker was blocked.",
+            "placeholders": {
+                "start": {
+                    "content": "$1",
+                },
+                "end": {
+                    "content": "$2",
+                }
+            }
+        },
+        "non_html_placeholder_test_workaround": {
+            "message": "Our workaround will cause problems in locales where characters should be next to each other with no spaces: $START$ ace$END$ with at least one inner space",
+            "description": "Popup message shown when at least one tracker was blocked.",
+            "placeholders": {
+                "start": {
+                    "content": "$1",
+                },
+                "end": {
+                    "content": "$2",
+                }
+            }
+        },
+        "popup_instructions_original": {
+            "message": "Integer placeholders don't appear instead of being cast as strings. Placeholders surrounding a word break unless there's at least one inner space: $COUNT$ potential $LINK_START$trackers$LINK_END$ blocked",
+            "description": "Popup message shown when at least one tracker was blocked.",
+            "placeholders": {
+                "count": {
+                    "content": "$1",
+                    "example": "15"
+                },
+                "link_start": {
+                    "content": "$2",
+                    "example": "<a href='https://privacybadger.org/#What-is-a-third-party-tracker'>"
+                },
+                "link_end": {
+                    "content": "</a>"
+                }
+            }
+        },
+        "popup_instructions_fixed": {
+            "message": "Expected result: $COUNT$ potential $LINK_START$ trackers $LINK_END$ blocked",
+            "description": "Popup message shown when at least one tracker was blocked.",
+            "placeholders": {
+                "count": {
+                    "content": "$1",
+                    "example": "15"
+                },
+                "link_start": {
+                    "content": "$2",
+                    "example": "<a href='https://privacybadger.org/#What-is-a-third-party-tracker'>"
+                },
+                "link_end": {
+                    "content": "</a>"
+                }
+            }
+        }
 }
