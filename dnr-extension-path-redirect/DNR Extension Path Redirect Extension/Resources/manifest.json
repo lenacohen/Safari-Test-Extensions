@@ -31,7 +31,8 @@
 
     "permissions": [
         "declarativeNetRequestWithHostAccess",
-        "declarativeNetRequestFeedback"
+        "declarativeNetRequestFeedback",
+        "webNavigation"
      ],
 
      "host_permissions": [
@@ -42,7 +43,6 @@
         "resources": [
           "web_accessible_resources/test_redirect.html"
         ],
-        "use_dynamic_url": true,
         "matches": ["<all_urls>"],
         "all_frames": true
       }]

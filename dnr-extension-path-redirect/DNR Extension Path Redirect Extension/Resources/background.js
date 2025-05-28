@@ -1,10 +1,6 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-
-    if (request.greeting === "hello")
-        return Promise.resolve({ farewell: "goodbye" });
-});
-
+chrome.webNavigation.onBeforeNavigate.addListener((details) => console.log("Navigating to", details.url));
+console.log("Removing dynamic rules from previous installation...");
+await chrome.declarativeNetRequest.updateSessionRules({removeRuleIds: [1]});
 console.log("Adding session rules...");
 chrome.declarativeNetRequest.updateSessionRules({addRules: [
     {
@@ -25,7 +21,7 @@ chrome.declarativeNetRequest.updateSessionRules({addRules: [
       }
 ]});
 console.log("Removing dynamic rules from previous installation...");
-let removeRuleIds = await chrome.declarativeNetRequest.updateDynamicRules({removeRuleIds: [2]});
+await chrome.declarativeNetRequest.updateDynamicRules({removeRuleIds: [2]});
 console.log("Adding dynamic rules...");
 chrome.declarativeNetRequest.updateDynamicRules({addRules: [
     {
