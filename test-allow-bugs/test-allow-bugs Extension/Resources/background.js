@@ -1,5 +1,5 @@
 // Test on https://techcrunch.com/2025/02/25/y-combinator-deletes-posts-after-a-startups-demo-goes-viral/
-// Tweet is blocked on Safari Test Preview 220 and renders successfully on 18.5
+// Tweet is blocked on Safari Test Preview 220 and renders successfully on Safari 18.5
 // The allowAllRequests rule on techcrunch.com should override the block rules for third-party twitter requests
 
 console.log("Removing dynamic rules from previous installation...");
