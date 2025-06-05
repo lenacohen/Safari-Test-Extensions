@@ -1,11 +1,8 @@
-// Test on https://techcrunch.com/2025/02/25/y-combinator-deletes-posts-after-a-startups-demo-goes-viral/
-// Tweet is blocked on Safari Test Preview 220 and renders successfully on Safari 18.5
-// The allowAllRequests rule on techcrunch.com should override the block rules for third-party twitter requests
+// Test on https://fmarier.github.io/brave-testing/social-widgets.html
+// The "Embedded tweet" is blocked on Safari Test Preview 220 but renders successfully on Safari 18.5, Chrome, and Firefox
+// The allowAllRequests rule for fmarier.github.io should override the block rules for third-party twitter requests
 
-console.log("Removing dynamic rules from previous installation...");
-await chrome.declarativeNetRequest.updateDynamicRules({removeRuleIds: [1, 2, 3]});
-console.log("Adding dynamic rules...");
-chrome.declarativeNetRequest.updateDynamicRules({addRules: [
+chrome.declarativeNetRequest.updateDynamicRules({removeRuleIds: [1, 2, 3]}).then(() => chrome.declarativeNetRequest.updateDynamicRules({addRules: [
     {
         id: 1,
         priority: 1,
@@ -29,9 +26,8 @@ chrome.declarativeNetRequest.updateDynamicRules({addRules: [
         priority: 100,
         action: { type: "allowAllRequests" },
         condition: {
-            urlFilter: "||techcrunch.com^",
+            urlFilter: "||fmarier.github.io^",
             resourceTypes: ["main_frame"]
         }
       }
-]});
-
+]}));
