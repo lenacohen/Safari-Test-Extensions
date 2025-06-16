@@ -15,7 +15,8 @@
     },
 
     "background": {
-        "scripts": [ "background.js" ],
+        "scripts": ["background.js"],
+        "service_worker": "background.js",
         "type": "module"
     },
 
@@ -38,12 +39,11 @@
      "host_permissions": [
         "<all_urls>"
       ],
-
+     
       "web_accessible_resources": [{
         "resources": [
-          "web_accessible_resources/test_redirect.html"
+          "pages/test_redirect.html"
         ],
-        "matches": ["<all_urls>"],
-        "all_frames": true
+        "matches": ["<all_urls>"]
       }]
 }

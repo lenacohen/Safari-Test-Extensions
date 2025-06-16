@@ -1,36 +1,12 @@
 chrome.webNavigation.onBeforeNavigate.addListener((details) => console.log("Navigating to", details.url));
-console.log("Removing dynamic rules from previous installation...");
-await chrome.declarativeNetRequest.updateSessionRules({removeRuleIds: [1]});
-console.log("Adding session rules...");
-chrome.declarativeNetRequest.updateSessionRules({addRules: [
-    {
+console.log("Adding dynamic redirect rule...")
+chrome.declarativeNetRequest.updateDynamicRules({removeRuleIds: [1]}).then(() => chrome.declarativeNetRequest.updateDynamicRules({addRules: [{
         id: 1,
         priority: 1,
         action: {
           type: "redirect",
           redirect: {
-            extensionPath: "/web_accessible_resources/test_redirect.html"
-          }
-        },
-        condition: {
-            urlFilter: "||eff.org^",
-            resourceTypes: [
-                "main_frame"
-            ]
-        }
-      }
-]});
-console.log("Removing dynamic rules from previous installation...");
-await chrome.declarativeNetRequest.updateDynamicRules({removeRuleIds: [2]});
-console.log("Adding dynamic rules...");
-chrome.declarativeNetRequest.updateDynamicRules({addRules: [
-    {
-        id: 2,
-        priority: 1,
-        action: {
-          type: "redirect",
-          redirect: {
-            extensionPath: "/web_accessible_resources/test_redirect.html"
+            extensionPath: "/pages/test_redirect.html"
           }
         },
         condition: {
@@ -39,5 +15,25 @@ chrome.declarativeNetRequest.updateDynamicRules({addRules: [
                 "main_frame"
             ]
         }
-      }
-]});
+}]})).catch((err) => {
+    console.error(err);
+});
+console.log("Adding session redirect rule...")
+chrome.declarativeNetRequest.updateSessionRules({removeRuleIds: [2]}).then(() => chrome.declarativeNetRequest.updateSessionRules({addRules: [{
+        id: 2,
+        priority: 1,
+        action: {
+          type: "redirect",
+          redirect: {
+            extensionPath: "/pages/test_redirect.html"
+          }
+        },
+        condition: {
+            urlFilter: "||eff.org^",
+            resourceTypes: [
+                "main_frame"
+            ]
+        }
+}]})).catch((err) => {
+    console.error(err);
+});
