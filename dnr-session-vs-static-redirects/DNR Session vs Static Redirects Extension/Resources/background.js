@@ -1,14 +1,5 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-
-    if (request.greeting === "hello")
-        return Promise.resolve({ farewell: "goodbye" });
-});
-
-
-console.log("Adding session rules...");
-let updateRules = await chrome.declarativeNetRequest.updateSessionRules({addRules: [
-    {
+console.log("Adding session redirect rule...")
+chrome.declarativeNetRequest.updateSessionRules({removeRuleIds: [2]}).then(() => chrome.declarativeNetRequest.updateSessionRules({addRules: [{
         id: 2,
         priority: 1,
         action: {
@@ -23,6 +14,6 @@ let updateRules = await chrome.declarativeNetRequest.updateSessionRules({addRule
                 "main_frame"
             ]
         }
-      }
-]});
-console.log("Added session rules");
+}]})).catch((err) => {
+    console.error(err);
+});
